@@ -1,0 +1,12 @@
+{
+  "name": "A Fool's Voyage",
+  "short_name": "A Fool's Voyage",
+  "id": "com.example.gamename",
+  "description": "Join Kwaku on his adventure through London looking for love! How will this intrepid explorer fair?\n\nBound building to building , collecting hearts and avoiding the deadly drop.",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
