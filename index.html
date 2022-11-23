@@ -41,12 +41,21 @@
         margin-left: 20px;
         height: 100px;
       }
+      a {
+        z-index: 1001;
+      }
 
       @media (max-width: 720px) {
         img {
-          height: 50px;
+          height: 30px;
           /* margin: auto; */
           /* width: 50%; */
+        }
+      }
+
+      @media (orientation: landscape) {
+        img {
+          height: 30px;
         }
       }
     </style>
@@ -226,15 +235,26 @@
     <script src="data.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
-      <a href="https://www.kwakuasante.com/">
-        <img
-          src="https://images.squarespace-cdn.com/content/v1/63219e8917a8162ad7eac11c/629e2297-6117-404c-a903-c085684ffea5/kwaku+white+logo.png" />
-        <!-- <a href="https://www.kwakuasante.com/">Back to site</a> -->
-      </a>
-    </header>
+    <header id="header"></header>
     <div class="the-game">
       <script>
+        function createHeader() {
+          const anchor = document.createElement('a');
+          const img = document.createElement('img');
+
+          anchor.setAttribute('href', 'https://www.kwakuasante.com/');
+          img.setAttribute(
+            'src',
+            'https://images.squarespace-cdn.com/content/v1/63219e8917a8162ad7eac11c/629e2297-6117-404c-a903-c085684ffea5/kwaku+white+logo.png'
+          );
+          anchor.onclick = () => window.open('https://www.kwakuasante.com/');
+
+          anchor.appendChild(img);
+
+          const toReplace = document.getElementById('header');
+          toReplace.appendChild(anchor);
+        }
+
         (function () {
           //Initialization
           var game = new gdjs.RuntimeGame(gdjs.projectData, {});
@@ -251,8 +271,11 @@
           game.loadAllAssets(function () {
             game.startGameLoop();
           });
+
+          createHeader();
         })();
       </script>
     </div>
   </body>
+  <script></script>
 </html>
