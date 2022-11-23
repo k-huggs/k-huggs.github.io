@@ -21,6 +21,9 @@
         background-color: #000000;
         overflow: hidden;
       }
+      header {
+        display: flex;
+      }
       #canvasArea {
         margin-left: auto;
         margin-right: auto;
@@ -31,6 +34,20 @@
         -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* IE10+/Edge */
         user-select: none; /* Standard */
+      }
+      img {
+        /* left: 0; */
+        margin-top: 20px;
+        margin-left: 20px;
+        height: 100px;
+      }
+
+      @media (max-width: 720px) {
+        img {
+          height: 50px;
+          /* margin: auto; */
+          /* width: 50%; */
+        }
       }
     </style>
     <!-- Libs and GDJS core files : -->
@@ -209,6 +226,13 @@
     <script src="data.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <header>
+      <a href="https://www.kwakuasante.com/">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/63219e8917a8162ad7eac11c/629e2297-6117-404c-a903-c085684ffea5/kwaku+white+logo.png" />
+        <!-- <a href="https://www.kwakuasante.com/">Back to site</a> -->
+      </a>
+    </header>
     <div class="the-game">
       <script>
         (function () {
