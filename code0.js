@@ -286,7 +286,7 @@ gdjs.copyArray(runtimeScene.getObjects("PlatformSpriteV5"), gdjs.A_32Fools_32Voy
     gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteObjects2[i].setX((( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV5Objects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV5Objects2[0].getPointX("")) + (( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV5Objects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV5Objects2[0].getWidth()) + gdjs.randomInRange(100 * gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) / 6, 200 * gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) / 6));
 }
 }{for(var i = 0, len = gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteObjects2.length ;i < len;++i) {
-    gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteObjects2[i].setY(gdjs.randomInRange((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) - 130), 574));
+    gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteObjects2[i].setY(gdjs.evtTools.common.clamp(gdjs.randomInRange((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) - 130), 574), 96, 574));
 }
 }{runtimeScene.getVariables().getFromIndex(3).setNumber((( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteObjects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteObjects2[0].getPointY("")));
 }}
@@ -317,7 +317,7 @@ gdjs.copyArray(runtimeScene.getObjects("PlatformSprite"), gdjs.A_32Fools_32Voyag
     gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV2Objects2[i].setX((( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteObjects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteObjects2[0].getPointX("")) + (( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteObjects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteObjects2[0].getWidth()) + gdjs.randomInRange(100 * gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) / 6, 200 * gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) / 6));
 }
 }{for(var i = 0, len = gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV2Objects2.length ;i < len;++i) {
-    gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV2Objects2[i].setY(gdjs.randomInRange((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) - 130), 574));
+    gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV2Objects2[i].setY(gdjs.evtTools.common.clamp(gdjs.randomInRange((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) - 130), 574), 96, 574));
 }
 }{runtimeScene.getVariables().getFromIndex(3).setNumber((( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV2Objects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV2Objects2[0].getPointY("")));
 }}
@@ -348,7 +348,7 @@ gdjs.copyArray(runtimeScene.getObjects("PlatformSpriteV2"), gdjs.A_32Fools_32Voy
     gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV3Objects2[i].setX((( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV2Objects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV2Objects2[0].getPointX("")) + (( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV2Objects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV2Objects2[0].getWidth()) + gdjs.randomInRange(100 * gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) / 6, 200 * gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) / 6));
 }
 }{for(var i = 0, len = gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV3Objects2.length ;i < len;++i) {
-    gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV3Objects2[i].setY(gdjs.randomInRange((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) - 130), 574));
+    gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV3Objects2[i].setY(gdjs.evtTools.common.clamp(gdjs.randomInRange((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) - 130), 574), 96, 574));
 }
 }{runtimeScene.getVariables().getFromIndex(3).setNumber((( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV3Objects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV3Objects2[0].getPointY("")));
 }}
@@ -379,7 +379,7 @@ gdjs.copyArray(runtimeScene.getObjects("PlatformSpriteV3"), gdjs.A_32Fools_32Voy
     gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV4Objects2[i].setX((( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV3Objects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV3Objects2[0].getPointX("")) + (( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV3Objects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV3Objects2[0].getWidth()) + gdjs.randomInRange(100 * gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) / 6, 200 * gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) / 6));
 }
 }{for(var i = 0, len = gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV4Objects2.length ;i < len;++i) {
-    gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV4Objects2[i].setY(gdjs.randomInRange((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) - 130), 574));
+    gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV4Objects2[i].setY(gdjs.evtTools.common.clamp(gdjs.randomInRange((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) - 130), 574), 96, 574));
 }
 }{runtimeScene.getVariables().getFromIndex(3).setNumber((( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV4Objects2.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV4Objects2[0].getPointY("")));
 }}
@@ -410,7 +410,7 @@ gdjs.copyArray(runtimeScene.getObjects("PlatformSpriteV4"), gdjs.A_32Fools_32Voy
     gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV5Objects1[i].setX((( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV4Objects1.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV4Objects1[0].getPointX("")) + (( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV4Objects1.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV4Objects1[0].getWidth()) + gdjs.randomInRange(100 * gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) / 6, 200 * gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) / 6));
 }
 }{for(var i = 0, len = gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV5Objects1.length ;i < len;++i) {
-    gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV5Objects1[i].setY(gdjs.randomInRange((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) - 130), 574));
+    gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV5Objects1[i].setY(gdjs.evtTools.common.clamp(gdjs.randomInRange((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) - 130), 574), 96, 574));
 }
 }{runtimeScene.getVariables().getFromIndex(3).setNumber((( gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV5Objects1.length === 0 ) ? 0 :gdjs.A_32Fools_32Voyage_32GameCode.GDPlatformSpriteV5Objects1[0].getPointY("")));
 }}
