@@ -232,49 +232,46 @@
     <script src="code3.js" crossorigin="anonymous"></script>
     <script src="code4.js" crossorigin="anonymous"></script>
     <script src="code5.js" crossorigin="anonymous"></script>
+    <script src="code6.js" crossorigin="anonymous"></script>
     <script src="data.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header id="header"></header>
-    <div class="the-game">
-      <script>
-        function createHeader() {
-          const anchor = document.createElement('a');
-          const img = document.createElement('img');
+    <script>
+      function createHeader() {
+        const anchor = document.createElement('a');
+        const img = document.createElement('img');
 
-          anchor.setAttribute('href', 'https://www.kwakuasante.com/');
-          img.setAttribute(
-            'src',
-            'https://images.squarespace-cdn.com/content/v1/63219e8917a8162ad7eac11c/629e2297-6117-404c-a903-c085684ffea5/kwaku+white+logo.png'
-          );
-          anchor.onclick = () => window.open('https://www.kwakuasante.com/');
+        anchor.setAttribute('href', 'https://www.kwakuasante.com/');
+        img.setAttribute(
+          'src',
+          'https://images.squarespace-cdn.com/content/v1/63219e8917a8162ad7eac11c/629e2297-6117-404c-a903-c085684ffea5/kwaku+white+logo.png'
+        );
+        anchor.onclick = () => window.open('https://www.kwakuasante.com/');
 
-          anchor.appendChild(img);
+        anchor.appendChild(img);
 
-          const toReplace = document.getElementById('header');
-          toReplace.appendChild(anchor);
-        }
+        const toReplace = document.getElementById('header');
+        toReplace.appendChild(anchor);
+      }
+      (function () {
+        //Initialization
+        var game = new gdjs.RuntimeGame(gdjs.projectData, {});
 
-        (function () {
-          //Initialization
-          var game = new gdjs.RuntimeGame(gdjs.projectData, {});
+        //Create a renderer
+        game.getRenderer().createStandardCanvas(document.body);
 
-          //Create a renderer
-          game.getRenderer().createStandardCanvas(document.body);
+        //Bind keyboards/mouse/touch events
+        game
+          .getRenderer()
+          .bindStandardEvents(game.getInputManager(), window, document);
 
-          //Bind keyboards/mouse/touch events
-          game
-            .getRenderer()
-            .bindStandardEvents(game.getInputManager(), window, document);
+        //Load all assets and start the game
+        game.loadAllAssets(function () {
+          game.startGameLoop();
+        });
 
-          //Load all assets and start the game
-          game.loadAllAssets(function () {
-            game.startGameLoop();
-          });
-
-          createHeader();
-        })();
-      </script>
-    </div>
+        createHeader();
+      })();
+    </script>
   </body>
 </html>

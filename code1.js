@@ -206,7 +206,7 @@ gdjs.End_32GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRe
 }if ( gdjs.End_32GameCode.condition1IsTrue_0.val ) {
 {
 {gdjs.End_32GameCode.conditionTrue_1 = gdjs.End_32GameCode.condition2IsTrue_0;
-gdjs.End_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9378996);
+gdjs.End_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9379284);
 }
 }}
 }
@@ -429,7 +429,7 @@ gdjs.End_32GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRe
 }if ( gdjs.End_32GameCode.condition1IsTrue_0.val ) {
 {
 {gdjs.End_32GameCode.conditionTrue_1 = gdjs.End_32GameCode.condition2IsTrue_0;
-gdjs.End_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9370124);
+gdjs.End_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9370412);
 }
 }}
 }
@@ -467,7 +467,7 @@ gdjs.End_32GameCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRe
 }if ( gdjs.End_32GameCode.condition1IsTrue_0.val ) {
 {
 {gdjs.End_32GameCode.conditionTrue_1 = gdjs.End_32GameCode.condition2IsTrue_0;
-gdjs.End_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9372332);
+gdjs.End_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9372620);
 }
 }}
 }

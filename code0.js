@@ -722,7 +722,7 @@ gdjs.A_32Fools_32Voyage_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.runtim
 }if ( gdjs.A_32Fools_32Voyage_32GameCode.condition0IsTrue_0.val ) {
 {
 {gdjs.A_32Fools_32Voyage_32GameCode.conditionTrue_1 = gdjs.A_32Fools_32Voyage_32GameCode.condition1IsTrue_0;
-gdjs.A_32Fools_32Voyage_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9331220);
+gdjs.A_32Fools_32Voyage_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9331492);
 }
 }}
 if (gdjs.A_32Fools_32Voyage_32GameCode.condition1IsTrue_0.val) {

@@ -2,7 +2,7 @@
   "name": "A Fool's Voyage",
   "short_name": "A Fool's Voyage",
   "id": "com.example.gamename",
-  "description": "Join Kwaku on his adventure through London looking for love! How will this intrepid explorer fair?\n\nBound building to building , collecting hearts and avoiding the deadly drop.",
+  "description": "A Fools Voyage:\n\nJoin our intrepid adventure bounding building to building through the London CityScape in the look for love.\n\nCollect hearts as they will +10 points to your score - not all hearts \n\nGood Luck!",
   "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",
