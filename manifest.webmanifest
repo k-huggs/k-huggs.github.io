@@ -1,9 +1,9 @@
 {
-  "name": "A Fool's Voyage",
-  "short_name": "A Fool's Voyage",
+  "name": "A Fools Voyage",
+  "short_name": "A Fools Voyage",
   "id": "com.example.gamename",
   "description": "A Fools Voyage:\n\nJoin our intrepid adventure bounding building to building through the London CityScape in the look for love.\n\nCollect hearts as they will +10 points to your score - not all hearts \n\nGood Luck!",
-  "orientation": "landscape",
+  "orientation": "portrait",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "black",

@@ -47,10 +47,6 @@ gdjs.Start_32ScreenCode.GDOffTxtObjects1= [];
 gdjs.Start_32ScreenCode.GDOffTxtObjects2= [];
 gdjs.Start_32ScreenCode.GDOffTxtObjects3= [];
 gdjs.Start_32ScreenCode.GDOffTxtObjects4= [];
-gdjs.Start_32ScreenCode.GDNameSpriteObjects1= [];
-gdjs.Start_32ScreenCode.GDNameSpriteObjects2= [];
-gdjs.Start_32ScreenCode.GDNameSpriteObjects3= [];
-gdjs.Start_32ScreenCode.GDNameSpriteObjects4= [];
 gdjs.Start_32ScreenCode.GDLeaderboardTxtObjects1= [];
 gdjs.Start_32ScreenCode.GDLeaderboardTxtObjects2= [];
 gdjs.Start_32ScreenCode.GDLeaderboardTxtObjects3= [];
@@ -547,7 +543,7 @@ gdjs.Start_32ScreenCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.scen
 }if ( gdjs.Start_32ScreenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Start_32ScreenCode.conditionTrue_1 = gdjs.Start_32ScreenCode.condition1IsTrue_0;
-gdjs.Start_32ScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9216924);
+gdjs.Start_32ScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9487220);
 }
 }}
 if (gdjs.Start_32ScreenCode.condition1IsTrue_0.val) {
@@ -723,10 +719,6 @@ gdjs.Start_32ScreenCode.GDOffTxtObjects1.length = 0;
 gdjs.Start_32ScreenCode.GDOffTxtObjects2.length = 0;
 gdjs.Start_32ScreenCode.GDOffTxtObjects3.length = 0;
 gdjs.Start_32ScreenCode.GDOffTxtObjects4.length = 0;
-gdjs.Start_32ScreenCode.GDNameSpriteObjects1.length = 0;
-gdjs.Start_32ScreenCode.GDNameSpriteObjects2.length = 0;
-gdjs.Start_32ScreenCode.GDNameSpriteObjects3.length = 0;
-gdjs.Start_32ScreenCode.GDNameSpriteObjects4.length = 0;
 gdjs.Start_32ScreenCode.GDLeaderboardTxtObjects1.length = 0;
 gdjs.Start_32ScreenCode.GDLeaderboardTxtObjects2.length = 0;
 gdjs.Start_32ScreenCode.GDLeaderboardTxtObjects3.length = 0;
